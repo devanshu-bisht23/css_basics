@@ -1,0 +1,25 @@
+div{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 10px solid brown;
+    border-top: 10px solid black;
+    align-content: center;
+    background-color: burlywood;
+
+    /* NOW ANIMATION BEGINS */
+
+    animation: spin 0.9s ease-in-out 0s infinite normal ;
+}
+
+@keyframes spin {
+
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}

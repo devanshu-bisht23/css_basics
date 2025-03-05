@@ -1,0 +1,48 @@
+/* div{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    background-color: beige;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+} */
+
+.navbar{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style-type: none;
+    background-color: beige;
+}
+
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+    align-self: flex-start;
+}

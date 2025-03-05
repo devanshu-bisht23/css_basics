@@ -1,0 +1,39 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1{
+    /* default position */
+    /* position: absolute; */
+    background-color: pink;
+    /* top:250px;
+    z-index:1; */
+
+    background-image: url("cat_photo.jpg");
+    background-size: cover;
+}
+
+#box2{
+    /*in relative, the object is shifting with it itself being the refrence*/
+    /* position: relative;  */
+    /*top: 10px;   shifted 10px from top from where it was at oriognally*/
+    /* left:10px;  not towards left but with refrence to left 10 px shifted */
+    background-color: yellow;
+}
+
+#box3{
+    background-color: orange;
+    /* position: absolute;
+    top:200px;
+    left: 10px; */
+}
+
+#box4{
+    /* position: fixed;
+    top:0px */
+}
+

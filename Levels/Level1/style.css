@@ -1,0 +1,29 @@
+/* h1{
+    color: red;
+} */
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+button{
+    color: #ff0000;
+    background-color: yellow;
+}
+
+#heading1{
+    color: rgb(203, 33,198);
+}
+
+#box{
+    background-color : rgb(23, 33,198);
+    color : white;
+    p{
+        text-align: center;
+    }
+}
+
+#one{
+    font-size: 25px;
+}
+ 
